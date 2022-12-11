@@ -9,6 +9,7 @@
     "@mui/material": "^5.10.17",
     "@mui/styled-engine": "^5.10.16",
     "@mui/x-data-grid": "^5.17.14",
+    "@rollup/plugin-terser": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -21,8 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --max_old_space_size=4096 start",
+    "build": "react-scripts --max_old_space_size=4096 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

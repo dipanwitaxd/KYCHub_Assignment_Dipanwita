@@ -1,0 +1,106 @@
+.product_details{
+    padding-top: 10vh;
+    padding-left: 19vw;
+    margin-right: 0vw;
+}
+.thumbnail{
+    width: 150px;
+}
+.button{
+    width: auto;
+    border: none;
+    border-radius: 4px;
+    background-color: #1876D1;
+    color: white;
+    padding: 1vh;
+    cursor: pointer;
+}
+@media screen and (max-width: 1200px){
+    .product_details{
+        padding-top: 10vh;
+        padding-left: 23vw;
+        margin-right: 3vw;
+    }
+}
+@media screen and (max-width: 1060px){
+    .product_details{
+        padding-top: 10vh;
+        padding-left: 24vw;
+        margin-right: 0vw;
+    }
+}
+@media screen and (max-width: 996px){
+    .product_details{
+        padding-top: 10vh;
+        padding-left: 26vw;
+        margin-right: 0vw;
+    }
+}
+@media screen and (max-width: 900px){
+    .product_details{
+        padding-top: 10vh;
+        padding-left: 28vw;
+        margin-right: 0vw;
+    }
+}
+@media screen and (max-width: 840px){
+    .product_details{
+        padding-top: 10vh;
+        padding-left: 30vw;
+        margin-right: 0vw;
+    }
+    .thumbnail{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 800px){
+    .product_details{
+        padding-top: 10vh;
+        padding-left: 32vw;
+        margin-right: 0vw;
+    }
+    .thumbnail{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 740px){
+    .product_details{
+        padding-top: 10vh;
+        padding-left: 34vw;
+        margin-right: 0vw;
+    }
+    .thumbnail{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 700px){
+    .product_details{
+        padding-top: 10vh;
+        padding-left: 36vw;
+        margin-right: 0vw;
+    }
+    .thumbnail{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 640px){
+    .product_details{
+        padding-top: 10vh;
+        padding-left: 38vw;
+        margin-right: 0vw;
+    }
+    .thumbnail{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 599px){
+    .product_details{
+        padding-top: 10vh;
+        padding-left: 2vw;
+        margin-right: 0vw;
+        padding-right: 2vw;
+    }
+    .thumbnail{
+        width: 100px;
+    }
+}
